@@ -1,0 +1,5 @@
+package com.easacc.easacctask
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity()
