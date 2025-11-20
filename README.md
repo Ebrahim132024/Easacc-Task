@@ -1,6 +1,6 @@
 
 
-# 📱 Flutter Social WebView App
+# 📱 Easacc Task
 
 A Flutter application that provides:
 
