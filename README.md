@@ -43,7 +43,7 @@ This Flutter app contains three main pages:
 Allows logging in using:
 
 - Google  
-- Facebook *(requires Facebook app verification)*
+- Facebook
 
 ### 2️⃣ Settings Page
 
@@ -63,7 +63,7 @@ Loads the URL saved in the Settings page using `webview_flutter`.
 ## 🚀 Features
 
 - ✔ Google Authentication  
-- ✔ Facebook Authentication *(Facebook login will ONLY work after app review & publish)*  
+- ✔ Facebook Authentication 
 - ✔ WebView with full navigation  
 - ✔ Save URL using `SharedPreferences`  
 - ✔ BLE scanning (printers, IoT devices)  
@@ -76,7 +76,7 @@ Loads the URL saved in the Settings page using `webview_flutter`.
 
 You can download the latest Android APK and install it directly on your device:
 
-Latest Version: [Download APK](https://drive.google.com/file/d/1wN4S2NMowWIwikVNcdQxzqOpZ3ZG-RNg/view?usp=sharing)
+Latest Version: [Download APK](https://drive.google.com/file/d/1zxv2ArkI8sCKmrUarz-hgynfhEDcUOXy/view?usp=sharing)
 
 ⚠ Make sure “Install from Unknown Sources” is enabled on your Android device.
 
@@ -156,13 +156,7 @@ Facebook login requires:
 * ✔ A Facebook Developer App
 * ✔ Correct key hashes
 * ✔ Correct package name
-* ❗ **App Verification (Important)**
 
-⚠ **Important Note:**
-
-> Facebook Login WILL NOT work until your Facebook app is verified and published.
-> In development mode, only test users added in the Facebook developer dashboard can log in.
-> This is a Facebook policy — not a code issue.
 
 ---
 
@@ -201,7 +195,7 @@ Facebook login requires:
 ### 🔐 Login Page
 
 * Google Login
-* Facebook Login *(needs published Facebook app)*
+* Facebook Login 
 
 ### ⚙ Settings Page
 
@@ -221,7 +215,6 @@ Displays the chosen URL inside the app.
 
 | Issue                        | Cause                      | Fix                                               |
 | ---------------------------- | -------------------------- | ------------------------------------------------- |
-| Facebook Login not working   | App not verified/published | ✔ Add test users ✔ Submit for Facebook App Review |
 | Google login fails           | Wrong SHA-1/SHA-256        | Re-generate fingerprints                          |
 | BLE scan not showing devices | Missing permissions        | Request Bluetooth + Location                      |
 | Wi-Fi scan empty             | Location permission denied | Grant permission                                  |
