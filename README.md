@@ -1,6 +1,5 @@
-Here’s your content properly converted into **GitHub-flavored `README.md` format** with headings, lists, code blocks, and formatting for readability:
 
-````markdown
+
 # 📱 Flutter Social WebView App
 
 A Flutter application that provides:
@@ -34,6 +33,57 @@ This project is a complete authentication + settings + WebView + network device 
 - [License](#license)
 
 ---
+
+## 📖 Overview
+
+This Flutter app contains three main pages:
+
+### 1️⃣ Social Login Page
+
+Allows logging in using:
+
+- Google  
+- Facebook *(requires Facebook app verification)*
+
+### 2️⃣ Settings Page
+
+Allows the user to:
+
+- ✔ Enter & save a website URL  
+- ✔ Scan and display Wi-Fi networks  
+- ✔ Scan and display Bluetooth (BLE) devices  
+- ✔ Save selections using `shared_preferences`
+
+### 3️⃣ WebView Page
+
+Loads the URL saved in the Settings page using `webview_flutter`.
+
+---
+
+## 🚀 Features
+
+- ✔ Google Authentication  
+- ✔ Facebook Authentication *(Facebook login will ONLY work after app review & publish)*  
+- ✔ WebView with full navigation  
+- ✔ Save URL using `SharedPreferences`  
+- ✔ BLE scanning (printers, IoT devices)  
+- ✔ Wi-Fi scanning  
+- ✔ Firebase Core integrated  
+- ✔ Simple and clean project structure
+
+---
+
+## 📦 Dependencies
+
+```yaml
+google_sign_in: ^6.2.2
+flutter_facebook_auth: ^7.1.0
+shared_preferences: ^2.2.3
+firebase_core: ^3.4.0
+webview_flutter: ^4.8.0
+flutter_reactive_ble: ^5.0.0
+wifi_scan: ^0.4.0
+
 
 ## 📖 Overview
 
