@@ -20,6 +20,7 @@ This project is a complete authentication + settings + WebView + network device 
 
 - [Overview](#overview)
 - [Features](#features)
+- [Download APK](#Download-APK)
 - [Dependencies](#dependencies)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
@@ -71,7 +72,7 @@ Loads the URL saved in the Settings page using `webview_flutter`.
 - ✔ Simple and clean project structure
 
 ---
-📥 Download APK
+## 📥 Download APK
 
 You can download the latest Android APK and install it directly on your device:
 
