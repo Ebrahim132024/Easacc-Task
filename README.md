@@ -83,7 +83,6 @@ firebase_core: ^3.4.0
 webview_flutter: ^4.8.0
 flutter_reactive_ble: ^5.0.0
 wifi_scan: ^0.4.0
----
 ```
 
 ## 📂 Project Structure
