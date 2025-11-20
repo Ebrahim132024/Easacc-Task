@@ -76,19 +76,9 @@ Loads the URL saved in the Settings page using `webview_flutter`.
 
 You can download the latest Android APK and install it directly on your device:
 
-Latest Version: Download APK
+Latest Version: [Download APK](https://drive.google.com/file/d/1wN4S2NMowWIwikVNcdQxzqOpZ3ZG-RNg/view?usp=sharing)
 
 ⚠ Make sure “Install from Unknown Sources” is enabled on your Android device.
-
-How to install:
-
-Download the APK file using the link above.
-
-Open the APK file from your Downloads folder.
-
-Follow the on-screen instructions to install the app.
-
-Once installed, open the app from your app drawer.
 
 ---
 ## 📦 Dependencies
