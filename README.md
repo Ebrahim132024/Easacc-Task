@@ -229,7 +229,3 @@ Displays the chosen URL inside the app.
 * Save BLE device name + MAC
 * Add logout
 
-
-
-Do you want me to do that?
-```
