@@ -30,7 +30,6 @@ This project is a complete authentication + settings + WebView + network device 
 - [App Flow](#app-flow)
 - [Troubleshooting](#troubleshooting)
 - [Enhancements](#enhancements)
-- [License](#license)
 
 ---
 
