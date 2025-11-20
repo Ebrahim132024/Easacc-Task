@@ -87,7 +87,7 @@ wifi_scan: ^0.4.0
 
 ## 📂 Project Structure
 
-```
+```yaml
 lib/
 │
 ├─ main.dart
@@ -99,8 +99,6 @@ lib/
 │   ├─ ble_service.dart
 │   └─ storage_service.dart
 ```
-
----
 
 ## 🧰 Getting Started
 
